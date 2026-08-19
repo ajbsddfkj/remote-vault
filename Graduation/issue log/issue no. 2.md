@@ -1,3 +1,9 @@
+---
+tags:
+aliases:
+  - issue
+---
+
 this is an issue report, it's purpose is to note down changes in the upcoming releases of my work. Read about the point of departure and about the development path of the project in issue log. Read about the new releases and updates in the update log.
 
 
@@ -6,6 +12,7 @@ this is an issue report, it's purpose is to note down changes in the upcoming re
 11-08-2026
 ### Issue log
 
+#spatial-coordinates 
 This issue aims at fixing the reconstruction. First goal is to scale the z-depth of the rendered image to metric units. In this setup the next hologram will be generated and later tested for reconstruction. 
 
 One correction is to add an offset value to the depth cue

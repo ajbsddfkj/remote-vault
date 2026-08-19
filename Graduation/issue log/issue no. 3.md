@@ -1,3 +1,9 @@
+---
+tags:
+aliases:
+  - issue
+---
+
 this is an issue report, it's purpose is to note down changes in the upcoming releases of my work. Read about the point of departure and about the development path of the project in issue log. Read about the new releases and updates in the update log.
 
 

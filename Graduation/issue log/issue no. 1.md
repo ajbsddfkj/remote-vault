@@ -1,3 +1,9 @@
+---
+tags:
+  - holography
+aliases:
+  - issue
+---
 this is an issue report, it's purpose is to note down changes in the upcoming releases of my work. Read about the point of departure and about the development path of the project in issue log. Read about the new releases and updates in the update log.
 
 
@@ -7,6 +13,8 @@ this is an issue report, it's purpose is to note down changes in the upcoming re
 
 The current state of the art workspace uses a GPU CUDA hardware to accelerate calculation of the complex wavefront matrix. 
 The GPU in use is a T4 Google GPU with 16 GB VRAM. This allows for streaming a batch of approx. 60 points for wavefront calculations. 
+
+#holography
 
 The calculation time is measured, and the process is displayed by a progress bar. Approximate time for calculating a full size hologram is 7:56 minutes (the metrics were acquired for a 2048 x 2048 size matrix, 164301 point cloud).
 

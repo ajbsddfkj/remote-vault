@@ -1,0 +1,28 @@
+properties:
+  note.ranking:
+    displayName: Ranking
+views:
+  - type: table
+    name: issue base
+    filters:
+      and:
+        - file.folder == "remote-vault/Graduation/issue log"
+    order:
+      - file.name
+      - file.ctime
+      - file.links
+      - file.tags
+      - ranking
+    columnSize:
+      file.links: 149
+  - type: table
+    name: tylko tagi
+    filters:
+      and:
+        - file.tags.contains("holography")
+    order:
+      - file.name
+      - file.mtime
+      - file.ctime
+      - file.links
+      - tags

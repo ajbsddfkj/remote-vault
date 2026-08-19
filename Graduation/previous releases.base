@@ -1,0 +1,12 @@
+views:
+  - type: table
+    name: Tabela
+    filters:
+      and:
+        - file.inFolder("remote-vault/Graduation/release log")
+    order:
+      - file.name
+      - file.ctime
+      - file.backlinks
+      - file.links
+    sort: []

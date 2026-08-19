@@ -1,4 +1,4 @@
-this is an release note, it's purpose is to document the state-of-the-art of my work.  Here you will find the general features, incorporated hardware and software technology and also the ideas of improvements. 
+this is an release note, it's purpose is to document the state-of-the-art of my [[Graduation]] Thesis.  Here you will find the general features, incorporated hardware and software technology and also the ideas of improvements. 
 
 **name of release**
 sandbox_zapis16082026
@@ -57,5 +57,6 @@ the next release will improve the time performance of the generation algorithm a
 - **support region calculations** - fixing the region of interest of the hologram for faster CGH calculations
 - **precomputed look-up-table LUT** - a standard solution for accelerating CGH calculations
 - **point interpolation**
-- **nonuniform sampling** - reducing the number of samples that need to be calculated
-- **S-FFT algorithm with CZT function** - a fine single fourier tranform algorithm that prevents aliasing
+- **nonuniform sampling** - reducing the number of samples that need to be calculated [read more](https://opg.optica.org/ao/fulltext.cfm?uri=ao-48-36-6841)
+- **S-FFT algorithm with [[CZT chirp Z correction]] function** #numerical-reconstruction - a fine single fourier tranform algorithm that prevents aliasing [read more](https://gemini.google.com/app/fa9bfd5a563b2e7f?hl=pl)
+
