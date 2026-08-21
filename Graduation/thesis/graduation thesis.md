@@ -7,9 +7,11 @@
 
 #### 1.2. Cel i zakres pracy (Wskazanie, że celem jest implementacja, optymalizacja oraz porównanie algorytmów CGH na potrzeby systemów AR)
 >Dlatego po tym jak wystarczająco dobrze nakreślę problemy współczesnego VR i AR przedstawię technologię, która eliminuje te problemy czyli podstawa merytoryczna mojej pracy - holograficzny wyświetlacz dooczny w trybie AR. 
+>
 >Trzeba w tym rozdziale jasno określić cele, to będzie potem podstawa do mierzenia jakości twojej pracy. 
->	Jeżeli powiem, że celem jest optymalizacja algorytmu do tworzenia wyświetlacza czasu rzeczywistego, no to chujowo będzie jeśli w metrykach okaże się, że hologram tworzy się 5 minut. 
->	Jeśli powiem, że wyświetlacz ma być szerokokątny i pracować w jak największym FOV no to chujowo będzie jeśli mój rzut obiektu nie będzie perspektywiczny i zakres kątowy będzie odpowiadał fragmentowi pola modulatora. 
+>	- Jeżeli powiem, że celem jest optymalizacja algorytmu do tworzenia wyświetlacza czasu rzeczywistego, no to chujowo będzie jeśli w metrykach okaże się, że hologram tworzy się 5 minut. 
+>	- Jeśli powiem, że wyświetlacz ma być szerokokątny i pracować w jak największym FOV no to chujowo będzie jeśli mój rzut obiektu nie będzie perspektywiczny i zakres kątowy będzie odpowiadał fragmentowi pola modulatora. 
+>
 >to się rozumie samo przez się. cele pracy muszą być dobrze określone, aby efekt pracy był miarodajny. dlatego cele obierz w jasny sposób i nakieruj pracę na odpowiedni tor. Takie cele chcę sobie obrać:
 >	- optymalizacja czasowa
 >	- redukcja szumu plamkowego
@@ -17,6 +19,7 @@
 >	- usuwanie niewidocznych powierzchni
 >	- poszerzenie kąta widzenia FOV
 >	- implementacja w systemach AR
+>
 >zakres pracy to obrane przeze mnie decyzje konstrukcyjne, które nadały pracy taki kształt jaki ma. Tutaj muszę stanąć w obronie moich decyzji i wyborów i uargumentować dlaczego te wybory najlepiej spełniają moje postawione cele. W skład zakresu mojej pracy wchodzą między innymi:
 >	- stworzenie sceny 3D w jednostkach metrycznych z możliwością skalowania rozmiaru 
 >	- renderowanie obiektu z zastosowanym algorytmem usuwania niewidocznych punktów
@@ -30,7 +33,7 @@
 >	- alternatywny kod porównawczy mojego promotora
 >	- numeryczna rekonstrukcja z wykorzystaniem algorytmu S-FFT
 >	- (TO DO) optyczna rekonstrukcja w systemie AR mojego promotora
->	- (TO DO) analiza porównawcza wykorzystanych systemów, algorytmów, parametrów, układów i 
+>	- (TO DO) analiza porównawcza wykorzystanych systemów, algorytmów, parametrów, układów
 #### 1.3. Układ pracy (Krótki opis zawartości kolejnych rozdziałów)
 >układ został zarysowany w moim poprzednim zakresie pracy, ale teraz żeby kurwa jebany laik  mógł to zrozumieć, muszę kompleksowo naprostować kolejność działania w zakresie pracy. tutaj muszę uniknąć powtórzeń. W tym zdecydowanie krótkim i zbieżnym opisie muszę opowiedzieć co jest tematem pracy i zapowiedzieć czytelnikowi co w tej mojej pracy odnajdzie wartościowego.
 
