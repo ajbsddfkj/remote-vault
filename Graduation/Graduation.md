@@ -14,3 +14,5 @@ Code structure can be read in [[Code Documentation]]
 To submit a release click [[remote-vault/Graduation/release log/create new release]]
 
 To read previous releases click [[previous releases.base]]
+
+Read the demo thesis here [[graduation thesis]]
