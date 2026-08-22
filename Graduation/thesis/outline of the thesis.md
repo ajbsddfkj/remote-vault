@@ -1,4 +1,4 @@
-this project is the outline for my [[graduation thesis]]. in here I want to present the scope of my project in the most design - accurate way possible. Here I want to facilitate the method and correct flaws of the proposed thesis. 
+this project is the outline for my [[Budowa i analiza demonstratora wyświetlacza holograficznego w trybie AR]]. in here I want to present the scope of my project in the most design - accurate way possible. Here I want to facilitate the method and correct flaws of the proposed thesis. 
 
 ---
 ### expectations

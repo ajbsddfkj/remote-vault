@@ -31,7 +31,7 @@
 >	- (TO DO) kwantyzacja pól falowych dla różnych głębokości z algorytmem LUT i WRP 
 >	- odzyskiwanie fazy z algorytmem Gerchberga-Saxona
 >	- alternatywny kod porównawczy mojego promotora
->	- numeryczna rekonstrukcja z wykorzystaniem algorytmu S-FFT
+>	- (IN PROGRESS) numeryczna rekonstrukcja z wykorzystaniem algorytmu S-FFT
 >	- (TO DO) optyczna rekonstrukcja w systemie AR mojego promotora
 >	- (TO DO) analiza porównawcza wykorzystanych systemów, algorytmów, parametrów, układów
 #### 1.3. Układ pracy (Krótki opis zawartości kolejnych rozdziałów)
@@ -39,24 +39,47 @@
 
 ## **2. Podstawy teoretyczne holografii i systemów AR/VR**
 
-#### 2.1. Fizyczne podstawy światła i dyfrakcji (Interferencja, propagacja fali)
-    
-#### 2.2. Cyfrowa holografia (CGH) a holografia tradycyjna
-    
-#### 2.3. Rola holografii w nowoczesnych systemach wyświetlania (Zastosowanie i znaczenie w AR/VR)
-    
+#### 2.1. Fizyczne podstawy holografii (Interferencja, propagacja fali)
+>w tradycyjnej fotografii odwzorowanie obrazu polega na przedstawieniu intensywności światła. Podstawą fotograficznego odwzorowania obrazu jest uchwytywanie amplitudy fali światła. W holografii odwzorowanie obrazu polega na uchwyceniu pola falowego. 
 
-## **3. Przegląd obecnych metod generowania hologramów (State of the Art)**
+>jak wytłumaczyć pojęcie holografii dla laika? 
+
+>Holografia to technika, która właściwości ma nie jak zwykła fotografia. Fotografia potrafi wykonać odwzorowanie jasności, ale traci jednak kluczową informację o fazie fali. W fizyce parametr ten jest bardzo istotny, ponieważ mówi jaką drogę przebyło światło i z jakiego dokładnie kierunku. Holografia w odróżnieniu od fotografii potrafi ponad jednym płaskim obrazem, zarejestrować cały przestrzenny układ światła. 
+
+>podczas tworzenia hologramu światło dwóch fal interferują ze sobą. wiązka przedmiotowa (po angielsku object beam) i wiązka odniesienia (reference beam). Wiązka przedmiotowa jest odwzorowaniem odbicia światła od specyficznej geometrii obiektu. Światło się odbija, rozprasza i ten front falowy posiada zakodowaną informacje. 
+
+#### 2.2. Cyfrowa holografia (CGH) a holografia tradycyjna
+>tutaj należy nazwać czym jest SLM - spatial light modulator, i jak działa fazowy tryb modulacji. Czym się to różni od holografii rejestrowanej na kliszy, albo produkowanych fotolitografią HOEs. 
+
+>tutaj trzeba powiedzieć, dlaczego w cyfrowej holografii generujemy hologramy fazowe (**POH** - Phase Only Hologram).
+#### 2.3. Rola holografii w nowoczesnych systemach wyświetlania (Zastosowanie i znaczenie w AR/VR)
+>tutaj należy zrobić przegląd technologii wyświetlaczy holograficznych w systemach AR. należy tu poszerzyć spektrum pracy o wszystkie możliwe rodzaje wyświetlaczy. 
+
+## **3. Przegląd obecnych algorytmów generowania hologramów (State of the Art)**
 
 #### 3.1. Reprezentacja scen 3D w grafice komputerowej (Chmury punktów vs. siatki wielokątów/warstwy)
-    
-#### 3.2. Przegląd algorytmów CGH (Zalety i wady istniejących rozwiązań, algorytmy iteracyjne np. Gerchberg-Saxton)
-    
+>tutaj należy nakreślić różnice w zastosowaniu reprezentacji chmury punktów vs siatki wielokątów vs warstwy. trzeba nakłonić czytelnika że zastosowanie chmury punktów jest bardziej kompatybilne z upragnionym zastosowaniem, wyświetlanie obiektów pozyskanych z skanerów laserowych lub technik fotolitografii. w tym projekcie zakładamy metodę chmury punktów.
 
+>trzeba nakreślić koncept renderowania (rasteryzacji) obiektów 3D. dwie metody zastosowane w projekcie mają inne cechy wizualne, należy nakreślić te różnice w obserwacji użytkownika. wyjaśnić różnice między rzutowaniem ortograficznym, a rzutowaniem perspektywicznym.
+
+>tutaj też trzeba nakreślić o usuwaniu niewidocznych punktów. o tym jakie metody można znaleźć dla metody chmury punktów. trzeba tutaj wytłumaczyć metody "simple occlusion" i "strict occlusion" (wersja prosta i wersja rygorystyczna). 
+
+>czytaj więcej: [usuwanie punktów niewidocznych - rzutowanie ortogonalne i perspektywiczne](https://gemini.google.com/app/1b0b7e763d69d941?hl=pl)
+
+#### 3.2. Przegląd algorytmów CGH (Zalety i wady istniejących rozwiązań, algorytmy hologramów 3D, *algorytmy iteracyjne np. Gerchberg-Saxton* - może być jeżeli uzasadnisz dlaczego jest Ci potrzebny)
+>tutaj trzeba wytłumaczyć jak algorytmy symulują przejście drogi optycznej, dla istniejących algorytmów. trzeba napisać o zbieraniu pola falowego dla pojedynczych punktów, wielokątów.
+
+>przeczytaj tutaj [Algorytm Point-Based Hologram - zakodowanie głębi i perspektywy, oraz usuwanie niewidocznych punktów](https://gemini.google.com/app/5f80de73b242e5ac?hl=pl)
+
+>tutaj muszę powiedzieć szczególnie dobrze o metodzie point-based CGH. chodzi o to, że algorytm tworzy symulację światła odbitego z obiektu. 
+>
+>teoretycznie każdy obiekt możemy potraktować jako sumę punktów emitujących falę sferyczną. teoretyczny hologram punktu to interferogram, który nazywa się pierścieniem Fresnela. Głębia punktu jest zakodowana na podstawie krzywizny czoła fali.
+
+>ale nie zdradzaj za dużo o algorytmie, to dopiero przedstawisz w punkcie 4.1
 ## **4. Projekt i optymalizacja badanych algorytmów CGH**
 
 #### 4.1. Autorski algorytm oparty na chmurze punktów (Twoja unikalna metoda, opis matematyczny)
-    
+>
 #### 4.2. Alternatywna metoda generowania hologramów _(Tu wpleciesz nowy kod od promotora)_
     
 #### 4.3. Przepływ danych (Data pipeline) – diagramy i schematy blokowe transformacji sceny fizycznej w wirtualną

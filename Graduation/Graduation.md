@@ -15,4 +15,4 @@ To submit a release click [[remote-vault/Graduation/release log/create new relea
 
 To read previous releases click [[previous releases.base]]
 
-Read the demo thesis here [[graduation thesis]]
+Read the demo thesis here [[Budowa i analiza demonstratora wyświetlacza holograficznego w trybie AR]]
