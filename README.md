@@ -3,7 +3,7 @@ The online back-up for polite puppy vault
 
 the changes should apper online
 
-graph TD
+	graph TD
 
     %% Sekcja źródeł danych
     subgraph Zrodla [Źródła Danych]
