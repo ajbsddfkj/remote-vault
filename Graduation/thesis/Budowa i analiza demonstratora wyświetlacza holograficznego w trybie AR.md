@@ -79,7 +79,7 @@
 ## **4. Projekt i optymalizacja badanych algorytmów CGH**
 
 #### 4.1. Autorski algorytm oparty na chmurze punktów (Twoja unikalna metoda, opis matematyczny)
->
+>tutaj musisz zrobić data-pipeline oraz twój flow-chart
 #### 4.2. Alternatywna metoda generowania hologramów _(Tu wpleciesz nowy kod od promotora)_
     
 #### 4.3. Przepływ danych (Data pipeline) – diagramy i schematy blokowe transformacji sceny fizycznej w wirtualną
