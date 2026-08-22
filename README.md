@@ -4,6 +4,7 @@ The online back-up for polite puppy vault
 the changes should apper online
 
 graph TD
+
     %% Sekcja źródeł danych
     subgraph Zrodla [Źródła Danych]
         A1[(Baza SQL <br> Zamówienia)]
