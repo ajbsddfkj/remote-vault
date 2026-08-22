@@ -3,7 +3,8 @@ The online back-up for polite puppy vault
 
 the changes should apper online
 
-	graph TD
+```mermaid
+graph TD
 
     %% Sekcja źródeł danych
     subgraph Zrodla [Źródła Danych]
@@ -35,3 +36,4 @@ the changes should apper online
     C -->|Odczyt| D
     D -->|Zapis ustrukturyzowany| E
     E -->|Zapytania SQL| F
+```
